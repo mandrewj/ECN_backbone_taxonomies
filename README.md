@@ -3,7 +3,7 @@ Scripts and data files associated with Johnston and Franz 2017 Backbone Taxonomi
 
 ## Arizona Eleodes
 
-ArizonaEleodes.zip contains the original downloaded data from iDigBio.
+The folder ArizonaEleodes contains the files analyzed for this talk to look at what species of Eleodes occur in the state of Arizona. ArizonaEleodes.zip contains the original downloaded data from iDigBio.
 
 Enter directory in terminal, call the bash script as follows:
 ```
@@ -20,6 +20,7 @@ Note: These scripts should work on any occurrence files downloaded from iDigBio 
 
 ## MAJC Eleodes
 
+The folder GBIF_MAJC contains the files used to analyze the changes of my personal collection once harvested from SCAN by GBIF.
 We can perform the same analysis as above.  However, GBIF's standardized data (occurrence.txt) is already filtered to only contain accepted names, so if we simply run the sciNameCount.sh script, we can get the accepted names from occurrence.txt, or we can run the script on the verbatim.txt file to obtain the equivalent of the scientificName count from iDigBio above.
 
 ```
